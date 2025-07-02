@@ -20,49 +20,49 @@ const GallerySection = () => {
     },
     {
       id: 3,
-      src: "public/images/20230131_183311.jpg",
+      src: "/images/20230131_183311.jpg",
       title: "Industrial Scaffolding",
       category: "Construction"
     },
     {
       id: 4,
-      src: "public/images/20230131_214121.jpg",
+      src: "/images/20230131_214121.jpg",
       title: "Concert Stage Setup",
       category: "Entertainment"
     },
     {
       id: 5,
-      src: "public/images/20230929_195732.jpg",
+      src: "/images/20230929_195732.jpg",
       title: "Exhibition Platform",
       category: "Exhibitions"
     },
     {
       id: 6,
-      src: "public/images/20230929_201633.jpg",
+      src: "/images/20230929_201633.jpg",
       title: "Building Maintenance",
       category: "Maintenance"
     },
     {
       id: 7,
-      src: "public/images/20230929_214959.jpg",
+      src: "/images/20230929_214959.jpg",
       title: "High-rise Construction",
       category: "Construction"
     },
     {
       id: 8,
-      src: "public/images/20230929_215122.jpg",
+      src: "/images/20230929_215122.jpg",
       title: "Safety Installation",
       category: "Safety"
     },
     {
       id: 9,
-      src: "public/images/20231122_213828.jpg",
+      src: "/images/20231122_213828.jpg",
       title: "Safety Installation",
       category: "Safety"
     },
     {
       id: 10,
-      src: "public/images/20240103_154911.jpg",
+      src: "/images/20240103_154911.jpg",
       title: "Safety Installation",
       category: "Safety"
     }
