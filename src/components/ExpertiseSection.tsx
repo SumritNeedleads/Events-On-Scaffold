@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const ExpertiseSection = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -106,9 +107,12 @@ const ExpertiseSection = () => {
             <p className="text-gray-600 mb-6">
               Our experts are here to help you select the perfect scaffolding solution for your project requirements.
             </p>
-            <button className="bg-accent text-white px-8 py-3 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
-              Consult Our Experts
-            </button>
+            <Link
+                          to="/contact"
+                          className="bg-accent text-white px-6 py-2 rounded-lg hover:bg-[#5d5d5d] transition-colors font-medium"
+                        >
+                          Consult Our Experts
+                        </Link>
           </div>
         </div>
       </div>

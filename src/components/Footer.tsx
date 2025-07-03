@@ -63,8 +63,6 @@ const Footer = () => {
                 <li>• Aluminium Scaffolding</li>
                 <li>• Cuplock Scaffolding</li>
                 <li>• Ringlock Scaffolding</li>
-                <li>• Event Stage Setup</li>
-                <li>• Construction Support</li>
               </ul>
             </div>
           </div>
@@ -79,9 +77,9 @@ const Footer = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-1">Address</h4>
                   <p className="text-gray-300 text-sm">
-                    MN Scaffolding Services<br />
+                    {/* MN Scaffolding Services<br />
                     Hyderabad, Telangana<br />
-                    India - 500001
+                    India - 500001 */}
                   </p>
                 </div>
               </div>
@@ -91,10 +89,10 @@ const Footer = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-1">Phone</h4>
                   <a 
-                    href="tel:+918978438180" 
+                    href="tel:+919958273993" 
                     className="text-gray-300 hover:text-accent transition-colors duration-300 text-sm"
                   >
-                    +91 8978438180
+                    +91 9958273993
                   </a>
                 </div>
               </div>
@@ -104,10 +102,10 @@ const Footer = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-1">Email</h4>
                   <a 
-                    href="mailto:info@mnscaffolding.in" 
+                    href="mailto:eventsonscaffold@gmail.com" 
                     className="text-gray-300 hover:text-accent transition-colors duration-300 text-sm"
                   >
-                    info@mnscaffolding.in
+                    eventsonscaffold@gmail.com
                   </a>
                 </div>
               </div>
@@ -115,9 +113,9 @@ const Footer = () => {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="w-full bg-accent text-white py-3 px-6 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
+              <Link to="/contact" className="w-full block text-center text-lg bg-accent text-white py-3 px-6 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
                 Get Free Quote
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -128,7 +126,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2025 EVENTS ON SCAFFOLD. All Rights Reserved.
+              © 2025 NEEDLEADS TECHNOLOGY. All Rights Reserved.
             </div>
             
             <div className="flex space-x-6 text-sm text-gray-400">

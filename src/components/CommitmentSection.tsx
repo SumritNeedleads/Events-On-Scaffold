@@ -1,5 +1,6 @@
 
 import { Shield, Users, Lightbulb } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CommitmentSection = () => {
   const commitments = [
@@ -71,9 +72,9 @@ const CommitmentSection = () => {
                     <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300 font-medium">
                       Learn More
                     </button>
-                    <button className="text-primary border border-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition-colors duration-300 font-medium">
+                    <Link to="/contact" className="text-primary border border-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition-colors duration-300 font-medium">
                       Contact Us
-                    </button>
+                    </Link>
                   </div>
                 </div>
 
