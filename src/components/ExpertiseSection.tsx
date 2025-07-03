@@ -9,21 +9,21 @@ const ExpertiseSection = () => {
       id: 1,
       title: "Aluminium Scaffolding",
       description: "Lightweight, corrosion-resistant scaffolding systems perfect for events and temporary structures. Easy to assemble and dismantle with excellent load-bearing capacity.",
-      image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+      image: "/images/aluminium-scaffolding.png",
       features: ["Lightweight & Portable", "Weather Resistant", "Quick Assembly"]
     },
     {
       id: 2,
       title: "Cuplock Scaffolding",
       description: "Versatile and secure scaffolding system with unique cup and wedge locking mechanism. Ideal for complex structures and long-term construction projects.",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+      image: "/images/cuplock-scaffolding.png",
       features: ["Secure Locking System", "High Load Capacity", "Versatile Design"]
     },
     {
       id: 3,
       title: "Ringlock Scaffolding",
       description: "Heavy-duty scaffolding system designed for high-rise construction and industrial applications. Provides maximum safety and stability for demanding projects.",
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+      image: "/images/ringlock-scaffolding.png",
       features: ["Heavy-Duty Construction", "Maximum Stability", "Industrial Grade"]
     }
   ];
@@ -106,7 +106,7 @@ const ExpertiseSection = () => {
             <p className="text-gray-600 mb-6">
               Our experts are here to help you select the perfect scaffolding solution for your project requirements.
             </p>
-            <button className="bg-accent text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 font-medium">
+            <button className="bg-accent text-white px-8 py-3 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
               Consult Our Experts
             </button>
           </div>

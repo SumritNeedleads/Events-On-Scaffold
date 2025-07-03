@@ -115,7 +115,7 @@ const Footer = () => {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="w-full bg-accent text-white py-3 px-6 rounded-lg hover:bg-orange-600 transition-colors duration-300 font-medium">
+              <button className="w-full bg-accent text-white py-3 px-6 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
                 Get Free Quote
               </button>
             </div>

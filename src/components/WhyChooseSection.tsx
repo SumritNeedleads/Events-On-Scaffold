@@ -87,7 +87,7 @@ const WhyChooseSection = () => {
             Get in touch with our experts today and let us help you build something amazing with our premium scaffolding solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-accent text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 font-medium">
+            <button className="bg-accent text-white px-8 py-3 rounded-lg hover:bg-[#5d5d5d] transition-colors duration-300 font-medium">
               Get Free Quote
             </button>
             <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-primary transition-colors duration-300 font-medium">

@@ -7,19 +7,19 @@ const HeroSection = () => {
 
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      image: "/images/aluminium-scaffolding.png",
       title: "Professional Scaffolding Solutions",
       subtitle: "Safe & Reliable Event Infrastructure",
       link: "/services/scaffolding"
     },
     {
-      image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      image: "/images/cuplock-scaffolding.png",
       title: "Premium Event Staging",
       subtitle: "Creating Memorable Experiences",
       link: "/services/event-staging"
     },
     {
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      image: "/images/ringlock-scaffolding.png",
       title: "Construction Grade Support",
       subtitle: "Built for Safety & Durability",
       link: "/services/construction"
@@ -67,7 +67,7 @@ const HeroSection = () => {
                   <a href={slide.link}>
                     <Button
                       size="lg"
-                      className="bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-lg text-lg"
+                      className="bg-accent hover:bg-[#5d5d5d] text-white px-8 py-3 rounded-lg text-lg"
                     >
                       Read More
                     </Button>
@@ -116,7 +116,7 @@ const HeroSection = () => {
           <a href="/contact">
             <Button
               size="lg"
-              className="bg-accent hover:bg-orange-600 text-white px-6 py-2 rounded-lg"
+              className="bg-accent hover:bg-[#5d5d5d] text-white px-6 py-2 rounded-lg"
             >
               Get a Quote
             </Button>

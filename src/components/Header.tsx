@@ -164,7 +164,7 @@ const Header = () => {
 
             <Link
               to="/contact"
-              className="bg-accent text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors font-medium"
+              className="bg-accent text-white px-6 py-2 rounded-lg hover:bg-[#5d5d5d] transition-colors font-medium"
             >
               Get Quote
             </Link>

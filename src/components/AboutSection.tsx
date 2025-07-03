@@ -59,7 +59,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src="/images/homepage-about-us.jpg"
                 alt="Professional scaffolding setup"
                 className="w-full h-[500px] object-cover"
               />
